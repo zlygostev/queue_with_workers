@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="69">
+  <projectmakefile>Makefile</projectmakefile>
+  <defaultConf>0</defaultConf>
+  <confs>
+    <conf name="Debug" type="1">
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <dbxdebugger version="1">
+        <pathmaps>
+        </pathmaps>
+        <interceptlist>
+          <interceptoptions all="false" unhandled="true" unexpected="true"/>
+        </interceptlist>
+        <signals>
+        </signals>
+        <options>
+          <DebugOptions>
+            <option name="option_exec32" value="on"/>
+          </DebugOptions>
+        </options>
+        <buildfirst buildfirst_overriden="false" buildfirst_old="false"/>
+      </dbxdebugger>
+      <dbxrtc version="1">
+        <options>
+          <RtcOptions>
+            <option name="rtc_access_enable" value="off"/>
+            <option name="rtc_leaks_memuse_enable" value="off"/>
+            <option name="rtc_error_log_file_name" value="/dev/null"/>
+          </RtcOptions>
+        </options>
+        <loadobjs>
+          <lo name="/home/heven/SolStudioProjects/ThreadsAndQueue/dist/Debug/GNU-Linux-x86/threadsandqueue"
+              skip="false"/>
+          <lo name="/lib/ld-linux.so.2" skip="false"/>
+          <lo name="/usr/local/lib/libglog.so.0" skip="false"/>
+          <lo name="/usr/lib/libboost_thread.so.1.42.0" skip="false"/>
+          <lo name="/usr/lib/i386-linux-gnu/libstdc++.so.6" skip="false"/>
+          <lo name="/lib/i386-linux-gnu/libgcc_s.so.1" skip="false"/>
+          <lo name="/lib/i386-linux-gnu/libc.so.6" skip="false"/>
+          <lo name="/lib/i386-linux-gnu/libpthread.so.0" skip="false"/>
+          <lo name="/lib/i386-linux-gnu/libm.so.6" skip="false"/>
+          <lo name="/lib/i386-linux-gnu/librt.so.1" skip="false"/>
+        </loadobjs>
+      </dbxrtc>
+      <gizmo_options version="3">
+        <configurationname>GizmoSunStudioStandard</configurationname>
+      </gizmo_options>
+      <nativedebugger version="1">
+        <engine>dbx</engine>
+      </nativedebugger>
+      <runprofile version="6">
+        <args></args>
+        <rundir>.</rundir>
+        <buildfirst>true</buildfirst>
+        <console-type>0</console-type>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+          <variable name="GLOG_log_dir" value="./log"/>
+          <variable name="GLOG_v" value="4"/>
+          <variable name="GLOG_logtostderr" value="0"/>
+          <variable name="GLOG_minloglevel" value="0"/>
+          <variable name="GLOG_stderrthreshold" value="0"/>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Release" type="1">
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <dbxdebugger version="1">
+        <pathmaps>
+        </pathmaps>
+        <interceptlist>
+          <interceptoptions all="false" unhandled="true" unexpected="true"/>
+        </interceptlist>
+        <signals>
+        </signals>
+        <options>
+          <DebugOptions>
+          </DebugOptions>
+        </options>
+        <buildfirst buildfirst_overriden="false" buildfirst_old="false"/>
+      </dbxdebugger>
+      <dbxrtc version="1">
+        <options>
+          <RtcOptions>
+            <option name="rtc_error_log_file_name" value="/dev/null"/>
+          </RtcOptions>
+        </options>
+        <loadobjs>
+        </loadobjs>
+      </dbxrtc>
+      <gizmo_options version="3">
+        <configurationname>GizmoSunStudioStandard</configurationname>
+      </gizmo_options>
+      <nativedebugger version="1">
+        <engine>dbx</engine>
+      </nativedebugger>
+      <runprofile version="6">
+        <args></args>
+        <rundir></rundir>
+        <buildfirst>true</buildfirst>
+        <console-type>0</console-type>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>

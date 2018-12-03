@@ -1,0 +1,653 @@
+Log file created at: 2012/12/27 00:13:50
+Running on machine: heven-lnx
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I1227 00:13:50.311934  6003 main.cpp:36] Start main thread
+I1227 00:13:50.315083  6003 CMsgQueue.cpp:20] CMsgQueue()
+I1227 00:13:50.315240  6003 CStateController.cpp:17] CStateController()
+I1227 00:13:50.315750  6003 CRequestCreater.cpp:24] [Started] Request Creater
+I1227 00:13:50.315923  6003 CMainQueueHandler.cpp:17] CMainQueueHandler with ID=0
+I1227 00:13:50.316071  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:50.316333  6003 CMainQueueHandler.cpp:29] :Handler Started With Id=0
+I1227 00:13:50.316421  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:50.316515  6003 main.cpp:47] thread [0] with id[0] is created and started.
+I1227 00:13:50.316622  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=0
+I1227 00:13:50.316658  6003 CMainQueueHandler.cpp:17] CMainQueueHandler with ID=1
+I1227 00:13:50.316956  6003 CMainQueueHandler.cpp:29] :Handler Started With Id=1
+I1227 00:13:50.317028  6107 CMsgQueue.cpp:72] Waiting for a message...
+I1227 00:13:50.317106  6003 main.cpp:47] thread [1] with id[1] is created and started.
+I1227 00:13:50.317244  6003 CMainQueueHandler.cpp:17] CMainQueueHandler with ID=2
+I1227 00:13:50.317685  6003 CMainQueueHandler.cpp:29] :Handler Started With Id=2
+I1227 00:13:50.317826  6003 main.cpp:47] thread [2] with id[2] is created and started.
+I1227 00:13:50.317960  6003 CMainQueueHandler.cpp:17] CMainQueueHandler with ID=3
+I1227 00:13:50.318253  6003 CMainQueueHandler.cpp:29] :Handler Started With Id=3
+I1227 00:13:50.318390  6003 main.cpp:47] thread [3] with id[3] is created and started.
+I1227 00:13:50.318526  6003 CMainQueueHandler.cpp:17] CMainQueueHandler with ID=4
+I1227 00:13:50.318817  6003 CMainQueueHandler.cpp:29] :Handler Started With Id=4
+I1227 00:13:50.318902  6106 Request.cpp:18] ~Request() Id=0
+I1227 00:13:50.318954  6003 main.cpp:47] thread [4] with id[4] is created and started.
+I1227 00:13:50.319190  6110 CMsgQueue.cpp:72] Waiting for a message...
+I1227 00:13:50.319424  6109 CMsgQueue.cpp:72] Waiting for a message...
+I1227 00:13:50.319699  6108 CMsgQueue.cpp:72] Waiting for a message...
+I1227 00:13:50.516384  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:50.516554  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:50.516732  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=1
+I1227 00:13:50.519013  6107 Request.cpp:18] ~Request() Id=1
+I1227 00:13:50.717321  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:50.717376  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:50.717545  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=2
+I1227 00:13:50.719923  6110 Request.cpp:18] ~Request() Id=2
+I1227 00:13:50.917640  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:50.917693  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:50.917865  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=3
+I1227 00:13:50.920140  6109 Request.cpp:18] ~Request() Id=3
+I1227 00:13:51.117954  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:51.118160  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:51.118330  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=4
+I1227 00:13:51.120594  6108 Request.cpp:18] ~Request() Id=4
+I1227 00:13:51.318282  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:51.319303  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:51.319509  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=5
+I1227 00:13:51.321862  6106 Request.cpp:18] ~Request() Id=5
+I1227 00:13:51.518622  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:51.519357  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:51.519537  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=6
+I1227 00:13:51.521813  6107 Request.cpp:18] ~Request() Id=6
+I1227 00:13:51.718952  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:51.720264  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:51.720443  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=7
+I1227 00:13:51.722692  6110 Request.cpp:18] ~Request() Id=7
+I1227 00:13:51.919297  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:51.920510  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:51.920734  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=8
+I1227 00:13:51.922991  6109 Request.cpp:18] ~Request() Id=8
+I1227 00:13:52.120946  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:52.121145  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=9
+I1227 00:13:52.122645  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:52.123379  6108 Request.cpp:18] ~Request() Id=9
+I1227 00:13:52.322216  6106 CMsgQueue.cpp:72] Waiting for a message...
+I1227 00:13:52.322926  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:52.322959  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:52.323125  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=10
+I1227 00:13:52.325374  6106 Request.cpp:18] ~Request() Id=10
+I1227 00:13:52.522183  6107 CMsgQueue.cpp:72] Waiting for a message...
+I1227 00:13:52.523211  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:52.523401  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:52.523566  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=11
+I1227 00:13:52.525832  6107 Request.cpp:18] ~Request() Id=11
+I1227 00:13:52.723122  6110 CMsgQueue.cpp:72] Waiting for a message...
+I1227 00:13:52.723489  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:52.723845  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:52.724028  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=12
+I1227 00:13:52.726276  6110 Request.cpp:18] ~Request() Id=12
+I1227 00:13:52.923346  6109 CMsgQueue.cpp:72] Waiting for a message...
+I1227 00:13:52.923758  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:52.924039  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:52.924226  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=13
+I1227 00:13:52.926476  6109 Request.cpp:18] ~Request() Id=13
+I1227 00:13:53.123747  6108 CMsgQueue.cpp:72] Waiting for a message...
+I1227 00:13:53.124019  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:53.124047  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:53.124213  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=14
+I1227 00:13:53.126471  6108 Request.cpp:18] ~Request() Id=14
+I1227 00:13:53.324312  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:53.325688  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:53.325858  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=15
+I1227 00:13:53.328078  6106 Request.cpp:18] ~Request() Id=15
+I1227 00:13:53.524734  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:53.526223  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:53.526504  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=16
+I1227 00:13:53.528830  6107 Request.cpp:18] ~Request() Id=16
+I1227 00:13:53.725177  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:53.726670  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:53.726953  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=17
+I1227 00:13:53.729279  6110 Request.cpp:18] ~Request() Id=17
+I1227 00:13:53.925652  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:53.926866  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:53.927283  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=18
+I1227 00:13:53.929621  6109 Request.cpp:18] ~Request() Id=18
+I1227 00:13:54.126003  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:54.126879  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:54.127053  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=19
+I1227 00:13:54.129346  6108 Request.cpp:18] ~Request() Id=19
+I1227 00:13:54.326292  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:54.328469  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:54.328713  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=20
+I1227 00:13:54.330942  6106 Request.cpp:18] ~Request() Id=20
+I1227 00:13:54.526698  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:54.529309  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:54.529590  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=21
+I1227 00:13:54.531966  6107 Request.cpp:18] ~Request() Id=21
+I1227 00:13:54.727149  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:54.729754  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:54.730034  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=22
+I1227 00:13:54.732368  6110 Request.cpp:18] ~Request() Id=22
+I1227 00:13:54.927685  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:54.930094  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:54.930275  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=23
+I1227 00:13:54.932561  6109 Request.cpp:18] ~Request() Id=23
+I1227 00:13:55.128103  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:55.129822  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:55.130249  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=24
+I1227 00:13:55.132606  6108 Request.cpp:18] ~Request() Id=24
+I1227 00:13:55.328454  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:55.331222  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:55.331403  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=25
+I1227 00:13:55.333660  6106 Request.cpp:18] ~Request() Id=25
+I1227 00:13:55.528904  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:55.532445  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:55.532738  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=26
+I1227 00:13:55.535099  6107 Request.cpp:18] ~Request() Id=26
+I1227 00:13:55.729395  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:55.732919  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:55.733222  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=27
+I1227 00:13:55.735589  6110 Request.cpp:18] ~Request() Id=27
+I1227 00:13:55.929885  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:55.932950  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:55.933244  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=28
+I1227 00:13:55.935662  6109 Request.cpp:18] ~Request() Id=28
+I1227 00:13:56.130322  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:56.133074  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:56.133354  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=29
+I1227 00:13:56.135923  6108 Request.cpp:18] ~Request() Id=29
+I1227 00:13:56.330662  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:56.334018  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:56.334216  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=30
+I1227 00:13:56.336479  6106 Request.cpp:18] ~Request() Id=30
+I1227 00:13:56.531111  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:56.535642  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:56.535950  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=31
+I1227 00:13:56.538313  6107 Request.cpp:18] ~Request() Id=31
+I1227 00:13:56.731549  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:56.736357  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:56.736676  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=32
+I1227 00:13:56.739053  6110 Request.cpp:18] ~Request() Id=32
+I1227 00:13:56.932029  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:56.936192  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:56.936494  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=33
+I1227 00:13:56.938808  6109 Request.cpp:18] ~Request() Id=33
+I1227 00:13:57.132467  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:57.136490  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:57.136809  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=34
+I1227 00:13:57.139200  6108 Request.cpp:18] ~Request() Id=34
+I1227 00:13:57.332836  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:57.336850  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:57.337050  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=35
+I1227 00:13:57.339316  6106 Request.cpp:18] ~Request() Id=35
+I1227 00:13:57.533159  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:57.538754  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:57.538952  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=36
+I1227 00:13:57.541239  6107 Request.cpp:18] ~Request() Id=36
+I1227 00:13:57.733559  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:57.739578  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:57.740087  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=37
+I1227 00:13:57.742410  6110 Request.cpp:18] ~Request() Id=37
+I1227 00:13:57.934010  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:57.939375  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:57.939714  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=38
+I1227 00:13:57.942086  6109 Request.cpp:18] ~Request() Id=38
+I1227 00:13:58.134462  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:58.139922  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:58.140219  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=39
+I1227 00:13:58.142539  6108 Request.cpp:18] ~Request() Id=39
+I1227 00:13:58.334808  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:58.339761  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:58.339952  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=40
+I1227 00:13:58.342181  6106 Request.cpp:18] ~Request() Id=40
+I1227 00:13:58.535197  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:58.541693  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:58.542047  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=41
+I1227 00:13:58.544386  6107 Request.cpp:18] ~Request() Id=41
+I1227 00:13:58.735669  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:58.742910  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:58.743216  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=42
+I1227 00:13:58.745573  6110 Request.cpp:18] ~Request() Id=42
+I1227 00:13:58.936112  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:58.942600  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:58.942903  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=43
+I1227 00:13:58.945243  6109 Request.cpp:18] ~Request() Id=43
+I1227 00:13:59.136579  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:59.143035  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:59.143370  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=44
+I1227 00:13:59.145726  6108 Request.cpp:18] ~Request() Id=44
+I1227 00:13:59.336912  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:59.342561  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:59.342762  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=45
+I1227 00:13:59.345038  6106 Request.cpp:18] ~Request() Id=45
+I1227 00:13:59.537313  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:59.544903  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:59.545207  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=46
+I1227 00:13:59.547530  6107 Request.cpp:18] ~Request() Id=46
+I1227 00:13:59.737746  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:59.746076  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:59.746448  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=47
+I1227 00:13:59.748777  6110 Request.cpp:18] ~Request() Id=47
+I1227 00:13:59.938359  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:13:59.945736  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:13:59.946037  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=48
+I1227 00:13:59.948359  6109 Request.cpp:18] ~Request() Id=48
+I1227 00:14:00.138844  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:00.146217  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:00.146520  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=49
+I1227 00:14:00.148838  6108 Request.cpp:18] ~Request() Id=49
+I1227 00:14:00.339239  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:00.345391  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:00.345584  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=50
+I1227 00:14:00.347822  6106 Request.cpp:18] ~Request() Id=50
+I1227 00:14:00.539867  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:00.548029  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:00.548321  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=51
+I1227 00:14:00.550642  6107 Request.cpp:18] ~Request() Id=51
+I1227 00:14:00.740360  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:00.749254  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:00.749552  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=52
+I1227 00:14:00.751879  6110 Request.cpp:18] ~Request() Id=52
+I1227 00:14:00.940852  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:00.948832  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:00.949131  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=53
+I1227 00:14:00.951467  6109 Request.cpp:18] ~Request() Id=53
+I1227 00:14:01.141346  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:01.149346  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:01.149641  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=54
+I1227 00:14:01.151963  6108 Request.cpp:18] ~Request() Id=54
+I1227 00:14:01.341692  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:01.348170  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:01.348361  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=55
+I1227 00:14:01.351035  6106 Request.cpp:18] ~Request() Id=55
+I1227 00:14:01.542135  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:01.551142  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:01.551444  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=56
+I1227 00:14:01.553807  6107 Request.cpp:18] ~Request() Id=56
+I1227 00:14:01.742626  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:01.752425  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:01.752720  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=57
+I1227 00:14:01.755058  6110 Request.cpp:18] ~Request() Id=57
+I1227 00:14:01.943117  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:01.952015  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:01.952319  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=58
+I1227 00:14:01.954789  6109 Request.cpp:18] ~Request() Id=58
+I1227 00:14:02.143561  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:02.152478  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:02.152776  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=59
+I1227 00:14:02.155107  6108 Request.cpp:18] ~Request() Id=59
+I1227 00:14:02.344107  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:02.351403  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:02.351631  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=60
+I1227 00:14:02.353852  6106 Request.cpp:18] ~Request() Id=60
+I1227 00:14:02.544507  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:02.554304  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:02.554643  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=61
+I1227 00:14:02.556993  6107 Request.cpp:18] ~Request() Id=61
+I1227 00:14:02.744946  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:02.755545  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:02.755875  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=62
+I1227 00:14:02.758219  6110 Request.cpp:18] ~Request() Id=62
+I1227 00:14:02.945293  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:02.955219  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:02.955415  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=63
+I1227 00:14:02.957696  6109 Request.cpp:18] ~Request() Id=63
+I1227 00:14:03.145689  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:03.155808  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:03.156100  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=64
+I1227 00:14:03.158433  6108 Request.cpp:18] ~Request() Id=64
+I1227 00:14:03.346041  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:03.354277  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:03.354476  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=65
+I1227 00:14:03.356711  6106 Request.cpp:18] ~Request() Id=65
+I1227 00:14:03.546447  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:03.557489  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:03.557776  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=66
+I1227 00:14:03.560173  6107 Request.cpp:18] ~Request() Id=66
+I1227 00:14:03.746937  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:03.758719  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:03.759021  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=67
+I1227 00:14:03.761356  6110 Request.cpp:18] ~Request() Id=67
+I1227 00:14:03.947388  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:03.958148  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:03.958446  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=68
+I1227 00:14:03.960826  6109 Request.cpp:18] ~Request() Id=68
+I1227 00:14:04.147811  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:04.158864  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:04.159042  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=69
+I1227 00:14:04.161329  6108 Request.cpp:18] ~Request() Id=69
+I1227 00:14:04.348111  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:04.357079  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:04.357275  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=70
+I1227 00:14:04.359544  6106 Request.cpp:18] ~Request() Id=70
+I1227 00:14:04.548537  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:04.560653  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:04.561126  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=71
+I1227 00:14:04.563487  6107 Request.cpp:18] ~Request() Id=71
+I1227 00:14:04.749004  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:04.761842  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:04.762140  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=72
+I1227 00:14:04.764472  6110 Request.cpp:18] ~Request() Id=72
+I1227 00:14:04.949470  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:04.961328  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:04.961627  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=73
+I1227 00:14:04.963958  6109 Request.cpp:18] ~Request() Id=73
+I1227 00:14:05.149916  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:05.161825  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:05.162132  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=74
+I1227 00:14:05.164574  6108 Request.cpp:18] ~Request() Id=74
+I1227 00:14:05.350283  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:05.360117  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:05.360330  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=75
+I1227 00:14:05.362627  6106 Request.cpp:18] ~Request() Id=75
+I1227 00:14:05.550709  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:05.564013  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:05.564319  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=76
+I1227 00:14:05.566665  6107 Request.cpp:18] ~Request() Id=76
+I1227 00:14:05.751060  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:05.764929  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:05.765118  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=77
+I1227 00:14:05.767391  6110 Request.cpp:18] ~Request() Id=77
+I1227 00:14:05.951453  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:05.964428  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:05.964752  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=78
+I1227 00:14:05.967090  6109 Request.cpp:18] ~Request() Id=78
+I1227 00:14:06.151844  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:06.165040  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:06.165282  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=79
+I1227 00:14:06.167577  6108 Request.cpp:18] ~Request() Id=79
+I1227 00:14:06.352160  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:06.362982  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:06.363173  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=80
+I1227 00:14:06.365391  6106 Request.cpp:18] ~Request() Id=80
+I1227 00:14:06.552604  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:06.567297  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:06.567819  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=81
+I1227 00:14:06.570171  6107 Request.cpp:18] ~Request() Id=81
+I1227 00:14:06.753093  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:06.767822  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:06.768122  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=82
+I1227 00:14:06.770455  6110 Request.cpp:18] ~Request() Id=82
+I1227 00:14:06.953588  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:06.967633  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:06.967947  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=83
+I1227 00:14:06.970302  6109 Request.cpp:18] ~Request() Id=83
+I1227 00:14:07.154026  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:07.168043  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:07.168350  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=84
+I1227 00:14:07.170701  6108 Request.cpp:18] ~Request() Id=84
+I1227 00:14:07.354414  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:07.365747  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:07.365950  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=85
+I1227 00:14:07.368219  6106 Request.cpp:18] ~Request() Id=85
+I1227 00:14:07.554818  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:07.570680  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:07.570986  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=86
+I1227 00:14:07.573317  6107 Request.cpp:18] ~Request() Id=86
+I1227 00:14:07.755316  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:07.770969  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:07.771265  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=87
+I1227 00:14:07.773582  6110 Request.cpp:18] ~Request() Id=87
+I1227 00:14:07.955970  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:07.970784  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:07.971088  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=88
+I1227 00:14:07.973455  6109 Request.cpp:18] ~Request() Id=88
+I1227 00:14:08.156461  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:08.171182  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:08.171483  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=89
+I1227 00:14:08.173804  6108 Request.cpp:18] ~Request() Id=89
+I1227 00:14:08.356806  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:08.368623  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:08.368821  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=90
+I1227 00:14:08.371091  6106 Request.cpp:18] ~Request() Id=90
+I1227 00:14:08.557127  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:08.573791  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:08.574100  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=91
+I1227 00:14:08.576418  6107 Request.cpp:18] ~Request() Id=91
+I1227 00:14:08.757544  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:08.774102  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:08.774402  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=92
+I1227 00:14:08.776859  6110 Request.cpp:18] ~Request() Id=92
+I1227 00:14:08.957989  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:08.973942  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:08.974239  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=93
+I1227 00:14:08.976562  6109 Request.cpp:18] ~Request() Id=93
+I1227 00:14:09.158443  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:09.174305  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:09.174603  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=94
+I1227 00:14:09.176924  6108 Request.cpp:18] ~Request() Id=94
+I1227 00:14:09.358790  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:09.371477  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:09.371716  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=95
+I1227 00:14:09.373980  6106 Request.cpp:18] ~Request() Id=95
+I1227 00:14:09.559187  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:09.576889  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:09.577188  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=96
+I1227 00:14:09.579504  6107 Request.cpp:18] ~Request() Id=96
+I1227 00:14:09.759847  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:09.777354  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:09.777657  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=97
+I1227 00:14:09.779991  6110 Request.cpp:18] ~Request() Id=97
+I1227 00:14:09.960190  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:09.976968  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:09.977215  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=98
+I1227 00:14:09.979480  6109 Request.cpp:18] ~Request() Id=98
+I1227 00:14:10.160636  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:10.177430  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:10.177722  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=99
+I1227 00:14:10.180058  6108 Request.cpp:18] ~Request() Id=99
+I1227 00:14:10.361104  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:10.374378  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:10.374578  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=100
+I1227 00:14:10.376845  6106 Request.cpp:18] ~Request() Id=100
+I1227 00:14:10.561519  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:10.580029  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:10.580338  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=101
+I1227 00:14:10.582756  6107 Request.cpp:18] ~Request() Id=101
+I1227 00:14:10.761987  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:10.780488  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:10.780781  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=102
+I1227 00:14:10.783133  6110 Request.cpp:18] ~Request() Id=102
+I1227 00:14:10.962430  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:10.979915  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:10.980206  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=103
+I1227 00:14:10.982532  6109 Request.cpp:18] ~Request() Id=103
+I1227 00:14:11.162885  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:11.180475  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:11.180670  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=104
+I1227 00:14:11.182935  6108 Request.cpp:18] ~Request() Id=104
+I1227 00:14:11.363194  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:11.377200  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:11.377388  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=105
+I1227 00:14:11.379794  6106 Request.cpp:18] ~Request() Id=105
+I1227 00:14:11.563591  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:11.583257  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:11.583574  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=106
+I1227 00:14:11.585965  6107 Request.cpp:18] ~Request() Id=106
+I1227 00:14:11.764066  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:11.783761  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:11.784096  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=107
+I1227 00:14:11.786483  6110 Request.cpp:18] ~Request() Id=107
+I1227 00:14:11.964540  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:11.983001  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:11.983299  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=108
+I1227 00:14:11.985692  6109 Request.cpp:18] ~Request() Id=108
+I1227 00:14:12.165007  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:12.183351  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:12.183686  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=109
+I1227 00:14:12.186122  6108 Request.cpp:18] ~Request() Id=109
+I1227 00:14:12.365363  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:12.380197  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:12.380386  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=110
+I1227 00:14:12.382676  6106 Request.cpp:18] ~Request() Id=110
+I1227 00:14:12.565793  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:12.586535  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:12.586850  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=111
+I1227 00:14:12.589208  6107 Request.cpp:18] ~Request() Id=111
+I1227 00:14:12.766269  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:12.787011  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:12.787359  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=112
+I1227 00:14:12.789712  6110 Request.cpp:18] ~Request() Id=112
+I1227 00:14:12.966738  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:12.986243  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:12.986552  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=113
+I1227 00:14:12.988935  6109 Request.cpp:18] ~Request() Id=113
+I1227 00:14:13.167207  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:13.186655  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:13.186967  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=114
+I1227 00:14:13.189331  6108 Request.cpp:18] ~Request() Id=114
+I1227 00:14:13.367555  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:13.383014  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:13.383324  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=115
+I1227 00:14:13.385591  6106 Request.cpp:18] ~Request() Id=115
+I1227 00:14:13.568158  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:13.589717  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:13.590025  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=116
+I1227 00:14:13.592340  6107 Request.cpp:18] ~Request() Id=116
+I1227 00:14:13.768606  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:13.790225  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:13.790532  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=117
+I1227 00:14:13.792896  6110 Request.cpp:18] ~Request() Id=117
+I1227 00:14:13.968963  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:13.989429  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:13.989632  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=118
+I1227 00:14:13.991950  6109 Request.cpp:18] ~Request() Id=118
+I1227 00:14:14.169369  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:14.189874  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:14.190182  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=119
+I1227 00:14:14.192503  6108 Request.cpp:18] ~Request() Id=119
+I1227 00:14:14.369735  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:14.385927  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:14.386121  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=120
+I1227 00:14:14.388427  6106 Request.cpp:18] ~Request() Id=120
+I1227 00:14:14.570214  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:14.592860  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:14.593168  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=121
+I1227 00:14:14.595499  6107 Request.cpp:18] ~Request() Id=121
+I1227 00:14:14.770681  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:14.793442  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:14.793751  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=122
+I1227 00:14:14.796093  6110 Request.cpp:18] ~Request() Id=122
+I1227 00:14:14.971055  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:14.992337  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:14.992584  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=123
+I1227 00:14:14.994865  6109 Request.cpp:18] ~Request() Id=123
+I1227 00:14:15.171481  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:15.193028  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:15.193336  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=124
+I1227 00:14:15.195914  6108 Request.cpp:18] ~Request() Id=124
+I1227 00:14:15.371870  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:15.388841  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:15.389027  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=125
+I1227 00:14:15.391309  6106 Request.cpp:18] ~Request() Id=125
+I1227 00:14:15.572309  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:15.596096  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:15.596410  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=126
+I1227 00:14:15.598743  6107 Request.cpp:18] ~Request() Id=126
+I1227 00:14:15.772822  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:15.796695  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:15.797003  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=127
+I1227 00:14:15.799324  6110 Request.cpp:18] ~Request() Id=127
+I1227 00:14:15.973268  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:15.995358  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:15.995693  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=128
+I1227 00:14:15.998111  6109 Request.cpp:18] ~Request() Id=128
+I1227 00:14:16.173706  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:16.196431  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:16.196781  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=129
+I1227 00:14:16.199100  6108 Request.cpp:18] ~Request() Id=129
+I1227 00:14:16.374063  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:16.391829  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:16.392024  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=130
+I1227 00:14:16.394268  6106 Request.cpp:18] ~Request() Id=130
+I1227 00:14:16.574375  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:16.599287  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:16.599480  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=131
+I1227 00:14:16.601734  6107 Request.cpp:18] ~Request() Id=131
+I1227 00:14:16.774777  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:16.799842  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:16.800200  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=132
+I1227 00:14:16.802521  6110 Request.cpp:18] ~Request() Id=132
+I1227 00:14:16.975242  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:16.998641  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:16.998955  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=133
+I1227 00:14:17.001322  6109 Request.cpp:18] ~Request() Id=133
+I1227 00:14:17.175709  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:17.199594  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:17.199925  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=134
+I1227 00:14:17.202254  6108 Request.cpp:18] ~Request() Id=134
+I1227 00:14:17.376068  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:17.394772  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:17.395078  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=135
+I1227 00:14:17.397411  6106 Request.cpp:18] ~Request() Id=135
+I1227 00:14:17.576529  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:17.602152  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:17.602464  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=136
+I1227 00:14:17.604851  6107 Request.cpp:18] ~Request() Id=136
+I1227 00:14:17.776996  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:17.803014  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:17.803324  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=137
+I1227 00:14:17.805645  6110 Request.cpp:18] ~Request() Id=137
+I1227 00:14:17.977607  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:18.001821  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:18.002132  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=138
+I1227 00:14:18.004503  6109 Request.cpp:18] ~Request() Id=138
+I1227 00:14:18.178170  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:18.202811  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:18.203121  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=139
+I1227 00:14:18.205442  6108 Request.cpp:18] ~Request() Id=139
+I1227 00:14:18.378522  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:18.397830  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:18.398030  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=140
+I1227 00:14:18.400276  6106 Request.cpp:18] ~Request() Id=140
+I1227 00:14:18.578897  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:18.605376  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:18.605684  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=141
+I1227 00:14:18.608033  6107 Request.cpp:18] ~Request() Id=141
+I1227 00:14:18.779299  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:18.806139  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:18.806450  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=142
+I1227 00:14:18.808795  6110 Request.cpp:18] ~Request() Id=142
+I1227 00:14:18.979843  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:19.004993  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:19.005305  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=143
+I1227 00:14:19.007896  6109 Request.cpp:18] ~Request() Id=143
+I1227 00:14:19.180289  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:19.205941  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:19.206251  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=144
+I1227 00:14:19.208571  6108 Request.cpp:18] ~Request() Id=144
+I1227 00:14:19.380630  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:19.400656  6106 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:19.400845  6106 CMainQueueHandler.cpp:64] [0]:HandlingCycle. Process new message Id=145
+I1227 00:14:19.403098  6106 Request.cpp:18] ~Request() Id=145
+I1227 00:14:19.581023  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:19.608587  6107 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:19.608897  6107 CMainQueueHandler.cpp:64] [1]:HandlingCycle. Process new message Id=146
+I1227 00:14:19.611394  6107 Request.cpp:18] ~Request() Id=146
+I1227 00:14:19.781466  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:19.809288  6110 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:19.809599  6110 CMainQueueHandler.cpp:64] [4]:HandlingCycle. Process new message Id=147
+I1227 00:14:19.811925  6110 Request.cpp:18] ~Request() Id=147
+I1227 00:14:19.981912  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:20.008445  6109 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:20.008761  6109 CMainQueueHandler.cpp:64] [3]:HandlingCycle. Process new message Id=148
+I1227 00:14:20.011107  6109 Request.cpp:18] ~Request() Id=148
+I1227 00:14:20.182355  6105 CMsgQueue.cpp:62] Push(mq) msg. mq size [1]
+I1227 00:14:20.209045  6108 CMsgQueue.cpp:89] :Pop msg queue size [0]
+I1227 00:14:20.209498  6108 CMainQueueHandler.cpp:64] [2]:HandlingCycle. Process new message Id=149
+I1227 00:14:20.211779  6108 Request.cpp:18] ~Request() Id=149
+I1227 00:14:20.319200  6003 CRequestCreater.cpp:28] [Stopping] Request Creater
+I1227 00:14:20.382889  6003 main.cpp:57] thread with id[0] is stopped. Removing.
+I1227 00:14:20.383062  6003 CMainQueueHandler.cpp:34] :Handler Stopping with Id=0
+I1227 00:14:20.403470  6106 CMainQueueHandler.cpp:81] [0]:HandlingCycle. Break cycle. Finish thread.
+I1227 00:14:20.404120  6003 main.cpp:57] thread with id[1] is stopped. Removing.
+I1227 00:14:20.404291  6003 CMainQueueHandler.cpp:34] :Handler Stopping with Id=1
+I1227 00:14:20.611881  6107 CMainQueueHandler.cpp:81] [1]:HandlingCycle. Break cycle. Finish thread.
+I1227 00:14:20.612296  6003 main.cpp:57] thread with id[2] is stopped. Removing.
+I1227 00:14:20.612462  6003 CMainQueueHandler.cpp:34] :Handler Stopping with Id=2
+I1227 00:14:20.812418  6110 CMainQueueHandler.cpp:81] [4]:HandlingCycle. Break cycle. Finish thread.
+I1227 00:14:21.011706  6109 CMainQueueHandler.cpp:81] [3]:HandlingCycle. Break cycle. Finish thread.
+I1227 00:14:21.212239  6108 CMainQueueHandler.cpp:81] [2]:HandlingCycle. Break cycle. Finish thread.
+I1227 00:14:21.212654  6003 main.cpp:57] thread with id[3] is stopped. Removing.
+I1227 00:14:21.212821  6003 CMainQueueHandler.cpp:34] :Handler Stopping with Id=3
+I1227 00:14:21.213630  6003 main.cpp:57] thread with id[4] is stopped. Removing.
+I1227 00:14:21.213789  6003 CMainQueueHandler.cpp:34] :Handler Stopping with Id=4
+I1227 00:14:21.214654  6003 CMsgQueue.cpp:99] Message queue stopping
+I1227 00:14:21.214814  6003 CStateController.cpp:22] ~CStateController()
+I1227 00:14:21.214962  6003 CMsgQueue.cpp:25] ~CMsgQueue(), size [0]
+I1227 00:14:21.215298  6003 CStateController.cpp:96] CStateController::terminate() finished
+I1227 00:14:21.215402  6003 main.cpp:65] Finish main thread
+I1227 00:14:21.215495  6003 CRequestCreater.cpp:17] ~CRequestCreater
